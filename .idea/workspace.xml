@@ -17,6 +17,7 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="promociones" />
   </component>
@@ -25,7 +26,7 @@
       <file leaf-file-name="routes.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="498" selection-end="498" vertical-scroll-proportion="0.29377204" vertical-offset="0" max-vertical-offset="851">
+            <state line="18" column="0" selection-start="502" selection-end="502" vertical-scroll-proportion="0.26439482" vertical-offset="0" max-vertical-offset="851">
               <folding />
             </state>
           </provider>
@@ -54,17 +55,17 @@
         <option value="$PROJECT_DIR$/app/views/promocion/crear.blade.php" />
         <option value="$PROJECT_DIR$/app/views/empresa/ver.blade.php" />
         <option value="$PROJECT_DIR$/app/views/promocion/ver.blade.php" />
-        <option value="$PROJECT_DIR$/app/controllers/PromocionController.php" />
         <option value="$PROJECT_DIR$/app/views/comun/plantilla.blade.php" />
         <option value="$PROJECT_DIR$/app/views/promocion/index.blade.php" />
         <option value="$PROJECT_DIR$/app/views/index.blade.php" />
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/app/controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/app/controllers/EmpresaController.php" />
         <option value="$PROJECT_DIR$/app/promociones/repositories/EmpresaRepository.php" />
-        <option value="$PROJECT_DIR$/app/promociones/Empresa.php" />
         <option value="$PROJECT_DIR$/app/promociones/Promocion.php" />
+        <option value="$PROJECT_DIR$/app/controllers/EmpresaController.php" />
+        <option value="$PROJECT_DIR$/app/controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/app/controllers/PromocionController.php" />
+        <option value="$PROJECT_DIR$/app/promociones/Empresa.php" />
         <option value="$PROJECT_DIR$/app/routes.php" />
       </list>
     </option>
@@ -197,12 +198,14 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="sshConsole" />
+    <property name="options.lastSelected" value="preferences.sourceCode.PHP" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
+    <property name="SearchEverywhereHistory" value="indent" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -221,6 +224,23 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a9baa039-8fe9-4621-91d4-15b49af07cb6" name="Default" comment="" />
@@ -358,9 +378,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/PromocionController.php">
+    <entry file="file://$PROJECT_DIR$/app/controllers/EmpresaController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="40" selection-start="1320" selection-end="1320" vertical-scroll-proportion="0.55816686" vertical-offset="925" max-vertical-offset="2500">
+        <state line="14" column="5" selection-start="251" selection-end="251" vertical-scroll-proportion="-1.4676851" vertical-offset="1599" max-vertical-offset="2450">
           <folding />
         </state>
       </provider>
@@ -372,9 +392,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/EmpresaController.php">
+    <entry file="file://$PROJECT_DIR$/app/controllers/PromocionController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.20564042" vertical-offset="200" max-vertical-offset="2450">
+        <state line="57" column="40" selection-start="1439" selection-end="1439" vertical-scroll-proportion="0.5875441" vertical-offset="925" max-vertical-offset="2525">
           <folding />
         </state>
       </provider>
@@ -395,21 +415,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/promociones/Empresa.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="39" selection-start="372" selection-end="372" vertical-scroll-proportion="0.32314923" vertical-offset="0" max-vertical-offset="851">
+        <state line="12" column="4" selection-start="390" selection-end="390" vertical-scroll-proportion="0.35252643" vertical-offset="0" max-vertical-offset="851">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/promociones/Promocion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="41" selection-start="424" selection-end="424" vertical-scroll-proportion="0.32314923" vertical-offset="0" max-vertical-offset="851">
+        <state line="12" column="3" selection-start="443" selection-end="443" vertical-scroll-proportion="0.35252643" vertical-offset="0" max-vertical-offset="851">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="498" selection-end="498" vertical-scroll-proportion="0.29377204" vertical-offset="0" max-vertical-offset="851">
+        <state line="18" column="0" selection-start="502" selection-end="502" vertical-scroll-proportion="0.26439482" vertical-offset="0" max-vertical-offset="851">
           <folding />
         </state>
       </provider>
