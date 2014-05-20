@@ -14,11 +14,6 @@ class EmpresaRepository {
         return Empresa::all();
     }
 
-    public function obtenerConCodigos($id)
-    {
-        return Empresa::with('promociones')->get()->find($id);
-    }
-
     public function guardar($input)
     {
         $empresa = new Empresa;
@@ -31,6 +26,17 @@ class EmpresaRepository {
         $empresa->fill($input)->save();
     }
 
+    /*
+    * Devuelve la empresa con identificador $id con todas sus promociones
+    */
+    public function obtenerConCodigos($id)
+    {
+        return Empresa::with('promociones')->get()->find($id);
+    }
+
+    /*
+    * Devuelve todas las empresas con sus respectivas promociones.
+    */
     public function obtenerEmpresasConPromociones()
     {
         return Empresa::with('promociones')->get();
